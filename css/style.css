@@ -130,17 +130,17 @@ img {
 
  /* Container fix max-width 1159px */
 
-@media (max-width: 1159px) {
+@media (max-width: 1160px) {
     .container {
         width: 100vw;
     }
 }
 
-/* MEDIA QUERY  MOBILE 480px*/
+/* MEDIA QUERY  TABLET 768px*/
 
     
 
-/* MEDIA QUERY  TABLET 480px*/
+/* MEDIA QUERY  MOBILE 480px*/
 
 @media (max-width: 480px) {
 
@@ -175,6 +175,7 @@ img {
     }
 }
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
