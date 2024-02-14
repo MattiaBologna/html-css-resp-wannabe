@@ -170,7 +170,15 @@ title::before {
         width: 100%
     }
 
+    .steps {
+        margin-bottom: 0px;
+    }
+
     /* WHY US SECTION  */
+    
+    .why-us {
+        padding-top: 3rem;
+    }
 
     .why-us .row {
         flex-wrap: wrap;
@@ -179,9 +187,12 @@ title::before {
     .why-us .col {
         width: 100%;
     }
+
+    .why-us {
+        background-color: #1B1B1B;
+    }
 }
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
