@@ -154,6 +154,8 @@ title::before {
 
     .lessons .row {
         flex-wrap: wrap;
+        flex-direction: column;
+        gap: 3rem;
     }
 
     .lessons .col {
@@ -164,6 +166,8 @@ title::before {
 
     .steps .row {
         flex-wrap: wrap;
+        flex-direction: column;
+        gap: 3rem;
     }
 
     .steps .col {
@@ -178,10 +182,14 @@ title::before {
     
     .why-us {
         padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 0px;
     }
 
     .why-us .row {
         flex-wrap: wrap;
+        flex-direction: column;
+        gap: 3rem;
     }
 
     .why-us .col {
