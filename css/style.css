@@ -128,6 +128,12 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* Media query meta add */
+
+title::before {
+    content: "<meta name="viewport" content="width=device-width, initial-scale=1.0">";
+}
+
  /* Container fix max-width 1159px */
 
 @media (max-width: 1160px) {
